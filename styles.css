@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 960px;
+  margin: 0 auto;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  background-color: hsl(34deg 53% 89%);
+}
+
+.card {
+  width: 400px;
+  margin: 20px auto;
+  border-radius: 0.5em;
+  box-shadow: 2px 2px 5px black;
+  overflow: hidden;
+  line-height: 1.4em;
+  letter-spacing: 0.03em;
+  background-color: white;
+}
+
+.match-images {
+  height: 200px;
+  overflow: hidden;
+}
+
+.match-images > img {
+  width: 100%;
+}
+
+.card > .model-name,
+.card > .details {
+  padding: 1em;
+}
+
+.model-name {
+  border-bottom: 1px solid lightgrey;
+}
+
+.model-name h1 {
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+.model-name h2 {
+  font-weight: 200;
+  font-size: 0.9em;
+  color: grey;
+}
+
+.details {
+  padding-bottom: 0.8em;
+  font-weight: 300;
+}
+
+/* .details dt {
+  font-weight: 600;
+}
+
+.details dd {
+  margin-left: 3em;
+} */
+
+.details > thead {
+  text-align: left;
+}
+
+tr td:first-child {
+  font-weight: 500;
+}
