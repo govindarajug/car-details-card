@@ -56,14 +56,6 @@ body {
   font-weight: 300;
 }
 
-/* .details dt {
-  font-weight: 600;
-}
-
-.details dd {
-  margin-left: 3em;
-} */
-
 .details > thead {
   text-align: left;
 }
